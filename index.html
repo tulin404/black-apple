@@ -10,19 +10,19 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Sora:wght@100..800&display=swap" rel="stylesheet">
 </head>
 <body>
-    <section id="header" class="flex items-center justify-between sticky inset-0 px-6 py-2 sm:px-10 sm:py-4 bg-primary">
+    <header id="header" class="opacity-0 flex items-center justify-between sticky inset-0 px-4 py-2 md:px-8 md:py-4 bg-primary z-10">
         <div>
-            <img src="public/ba-icon.png" alt="" class="sm:h-18 h-16">
+            <img src="public/ba-icon.png" alt="" class="md:h-18 h-16">
         </div>
         <div class="flex sm:gap-4 gap-2">
-            <button class="text-white font-[Sora] font-bold bg-light-gold py-1.5 px-2.5 xl:py-2.5 xl:px-6 xl:text-lg rounded-full">Ver modelos</button>
-            <button class="text-white font-[Sora] font-bold bg-green-500 py-1.5 px-2.5 xl:py-2.5 xl:px-6 xl:text-lg rounded-full">WhatsApp</button>
+            <button id="see-models" class="text-white hover:scale-110 active:scale-95 transition-all duration-200 font-[Sora] font-bold bg-light-gold hover:bg-medium-gold active:bg-dark-gold py-1.5 px-2.5 xl:py-2.5 xl:px-6 xl:text-lg rounded-full">Ver modelos</button>
+            <button id="whatsapp-btn" class="text-white hover:scale-110 active:scale-95 transition-all duration-200 font-[Sora] font-bold bg-green-500 hover:bg-green-700 active:bg-green-900 py-1.5 px-2.5 xl:py-2.5 xl:px-6 xl:text-lg rounded-full">WhatsApp</button>
         </div>
-    </section>
+    </header>
     <section id="hero" class="h-[90dvh] flex lg:flex-row flex-col sm:px-10 px-6 py-4 justify-around gap-8">
         <div class="sm:flex-1 flex flex-col md:gap-8 gap-4">
-            <h1 class="text-white text-pretty text-center xl:text-9xl md:text-8xl text-6xl/[1.1] font-[Sora] font-bold">Seu próximo iPhone está <g class="text-light-gold">aqui.</g></h1>
-            <h1 class="text-white text-pretty text-center xl:text-4xl md:text-3xl text-xl font-[Inter]">iPhones originais, testados e com garantia real. Sem complicação. Sem risco.</h1>
+            <h1 id="hero-txt" class="text-white opacity-0 text-pretty text-center xl:text-8xl md:text-8xl text-6xl/[1.1] font-[Sora] font-bold">Seu próximo iPhone está <g class="text-light-gold">aqui.</g></h1>
+            <h3 id="desc" class="text-white opacity-0 text-pretty text-center xl:text-4xl md:text-3xl text-xl font-[Inter]">iPhones originais, testados e com garantia real. Sem complicação. Sem risco.</h3>
         </div>
         <div class="lg:flex-1 justify-center flex">
             <img class="lg:h-[80dvh] sm:h-[60dvh] h-[50dvh]" src="public/iphones-2.png" alt="">
