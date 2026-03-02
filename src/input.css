@@ -11,6 +11,10 @@ header {
     animation: from-top 2s cubic-bezier(0.25, 1, 0.5, 1) 0.5s forwards;
 }
 
+#img-main {
+    animation: from-left 1.8s cubic-bezier(0.25, 1, 0.5, 1) 1.2s forwards;
+}
+
 #hero-txt {
     animation: from-top 1.5s cubic-bezier(0.25, 1, 0.5, 1) 0.5s forwards;
 }
@@ -33,6 +37,16 @@ header {
     0% {
         opacity: 0;
         transform: translateX(-3000px);
+    } 100% {
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+
+@keyframes from-left {
+    0% {
+        opacity: 0;
+        transform: translateX(3000px);
     } 100% {
         opacity: 1;
         transform: translateX(0px);
