@@ -11,6 +11,14 @@ header {
     animation: from-top 2s cubic-bezier(0.25, 1, 0.5, 1) 0.5s forwards;
 }
 
+#see-models:hover {
+    box-shadow: 0 0 20px 4px var(--color-dark-gold);
+}
+
+#whatsapp-btn:hover {
+    box-shadow: 0 0 20px 4px var(--color-green-900);
+}
+
 #img-main {
     animation: from-left 1.8s cubic-bezier(0.25, 1, 0.5, 1) 1.2s forwards;
 }
